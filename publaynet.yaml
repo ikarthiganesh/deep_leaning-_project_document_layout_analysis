@@ -1,0 +1,11 @@
+# Document Layout Analysis Dataset (PubLayNet subset)
+path: /kaggle/working/yolo_data
+train: train_subset/images
+val: train_subset/images  # using same subset for now
+
+names:
+  0: text
+  1: title
+  2: list
+  3: table
+  4: figure
