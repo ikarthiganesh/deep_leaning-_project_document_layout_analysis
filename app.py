@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
-model = YOLO('runs/detect/train/weights/best.pt')
+model = model = YOLO('best.pt')
 
 st.title("📰 Document Layout Analysis using YOLOv8")
 st.write("Upload any document image (magazine, paper, or report) to visualize its layout structure.")
